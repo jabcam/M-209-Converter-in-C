@@ -1,0 +1,2 @@
+
+This document describes two software implementations in C for the M209 converter. A first implementation is presented as a proof of concept. A second implementation is then developed by parallellizing the algorithm and preprocessing the internal key settings. The resulting optimized algorithm hits a processing speed of some 100 Mchars/second on a 2.8 GHz Intel Core i7 processor. The code is developed in Xcode but also compiles on gcc.
